@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:text="Tìm kiếm"
         android:textColor="#FFFFFF"
-        android:backgroundTint="#FFA500"
+        android:backgroundTint="#FF7F27"
         android:layout_below="@id/searchCity"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"/>
