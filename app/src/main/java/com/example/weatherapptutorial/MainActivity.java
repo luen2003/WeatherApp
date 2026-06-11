@@ -64,14 +64,6 @@ public class MainActivity extends AppCompatActivity {
         mweatherIcon = findViewById(R.id.weatherIcon);
         mCityFinder = findViewById(R.id.cityFinder);
         NameofCity = findViewById(R.id.cityName);
-        button = findViewById(R.id.InfoButton);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openInfoActivity();
-            }
-        });
-
 
         mCityFinder.setOnClickListener(new View.OnClickListener() {
             @Override

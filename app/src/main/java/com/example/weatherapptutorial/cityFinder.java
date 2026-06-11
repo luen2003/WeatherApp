@@ -10,6 +10,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Button;
 
 public class cityFinder extends AppCompatActivity {
 
@@ -19,6 +20,18 @@ public class cityFinder extends AppCompatActivity {
         setContentView(R.layout.activity_city_finder);
         final EditText editText=findViewById(R.id.searchCity);
         ImageView backButton=findViewById(R.id.backButton);
+        Button btnSearch = findViewById(R.id.btnSearch);
+
+        btnSearch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String newCity = editText.getText().toString().trim();
+
+                Intent intent = new Intent(cityFinder.this, MainActivity.class);
+                intent.putExtra("City", newCity);
+                startActivity(intent);
+            }
+        });
 
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -48,10 +48,21 @@
 
     </EditText>
 
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tìm kiếm"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FFA500"
+        android:layout_below="@id/searchCity"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
     <TextView
         android:layout_below="@id/searchCity"
         android:layout_marginTop="275dp"
-        android:text="Weather app by DLUONGTA"
+        android:text="Weather App by DLUONGTA"
         android:gravity="center"
         android:textSize="21dp"
         android:textColor="#fff"

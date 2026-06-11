@@ -19,19 +19,19 @@
 
     </pl.droidsonroids.gif.GifImageView>
 
-    <Button
-        android:text="About"
-        android:textColor="#fff"
-        android:id="@+id/InfoButton"
-        android:paddingRight="8dp"
-        android:layout_width="75dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginRight="11dp"
-        android:layout_marginLeft="330dp"
-        android:background="#FFA500">
+<!--    <Button-->
+<!--        android:text="About"-->
+<!--        android:textColor="#fff"-->
+<!--        android:id="@+id/InfoButton"-->
+<!--        android:paddingRight="8dp"-->
+<!--        android:layout_width="110dp"-->
+<!--        android:layout_height="56dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginRight="11dp"-->
+<!--        android:layout_marginLeft="330dp"-->
+<!--        android:background="#FFA500">-->
 
-    </Button>
+<!--    </Button>-->
 
 
     <LinearLayout
