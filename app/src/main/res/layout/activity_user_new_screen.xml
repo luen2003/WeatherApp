@@ -53,7 +53,7 @@
         android:textSize="28dp"
         android:layout_width="500dp"
         android:layout_height="75dp"
-        android:text="A Weather App - Current Weather And Forecast Weather" />
+        android:text="A Weather App - Current And Forecast Weather" />
 
 
         <Button
