@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     private Button button;
 
 
-    final String APP_ID = "dab3af44de7d24ae7ff86549334e45bd";
+    final String APP_ID = "7d5b8634b1df2e08455cef623b46dcad";
     final String WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather";
 
     final long MIN_TIME = 5000;
