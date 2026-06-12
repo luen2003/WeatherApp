@@ -25,7 +25,7 @@
 
         <TextView
             android:layout_gravity="center"
-            android:text="WeatherApp v.1.0.0"
+            android:text="Weather App v.1.0.0"
             android:textColor="#000"
             android:textAlignment="center"
             android:textStyle="italic"
@@ -43,10 +43,10 @@
         android:layout_marginTop="450dp"
         android:layout_width="1000dp"
         android:layout_height="48dp"
-        android:text="WeatherApp" />
+        android:text="Weather App" />
 
     <TextView
-        android:textColor="#ABE0D5"
+        android:textColor="#fff"
         android:lineSpacingExtra="0dp"
         android:layout_marginTop="520dp"
         android:gravity="center"
