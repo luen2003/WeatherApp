@@ -46,7 +46,7 @@ public class cityFinder extends AppCompatActivity {
 
                 // Kiểm tra rỗng
                 if (newCity.isEmpty()) {
-                    editText.setError("Please enter a city name!");
+                    editText.setError("City Name Required!");
                     Toast.makeText(cityFinder.this, "City Name Required!", Toast.LENGTH_SHORT).show();
                     return;
                 }
@@ -63,7 +63,7 @@ public class cityFinder extends AppCompatActivity {
                 String newCity = editText.getText().toString().trim();
 
                 if (newCity.isEmpty()) {
-                    editText.setError("Please enter a city name!");
+                    editText.setError("City Name Required!");
                     Toast.makeText(cityFinder.this, "City Name Required!", Toast.LENGTH_SHORT).show();
                     return true;
                 }
