@@ -16,10 +16,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
-        android:src="@drawable/left">
-
-
-    </ImageView>
+        android:src="@drawable/left" />
 
     <ImageView
         android:layout_width="75dp"
@@ -28,46 +25,63 @@
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="170dp"
         android:layout_marginTop="175dp"
-        android:src="@drawable/applogo"/>
+        android:src="@drawable/applogo" />
 
     <EditText
+        android:id="@+id/searchCity"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:hint="Enter City Name"
         android:layout_marginLeft="30dp"
-        android:textSize="20sp"
+        android:layout_marginRight="30dp"
         android:background="@drawable/edittextdesign"
-        android:textColor="@color/black"
-        android:imeOptions="actionGo"
-        android:id="@+id/searchCity"
-        android:inputType="textAutoCorrect"
         android:gravity="center_vertical|center_horizontal"
-        android:layout_marginRight="30dp">
-
-    </EditText>
+        android:hint="Enter City Name"
+        android:imeOptions="actionGo"
+        android:inputType="textAutoCorrect"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btnSearch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tìm kiếm"
-        android:textColor="#FFFFFF"
-        android:backgroundTint="#FF7F27"
         android:layout_below="@id/searchCity"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FF7F27"
+        android:text="Tìm kiếm"
+        android:textColor="#FFFFFF" />
+
+    <RelativeLayout
+        android:id="@+id/btnGetCurrentLocation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/btnSearch"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttondesign">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Lấy vị trí hiện tại"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
 
     <TextView
-        android:layout_below="@id/searchCity"
-        android:layout_marginTop="275dp"
-        android:text="Weather App by DLUONGTA"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/btnGetCurrentLocation"
+        android:layout_marginTop="150dp"
         android:gravity="center"
-        android:textSize="21dp"
+        android:text="Weather App by DLUONGTA"
         android:textColor="#fff"
-        android:layout_width="476dp"
-        android:layout_height="50dp" />
-
+        android:textSize="21sp" />
 
 </RelativeLayout>
